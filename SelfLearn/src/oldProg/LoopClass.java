@@ -116,8 +116,8 @@ do {
   8 8 8 8 8 8 8 8 
 9 9 9 9 9 9 9 9 9
 		 */
-		for (int i=1; i<=9; i++) {
-			for (int k=8; k>=i;k--) {
+		for (int i=1; i<=8; i++) {
+			for (int k=7; k>=i;k--) {
 				System.out.print("  "); // Double sapce
 			}
 			for(int j=1; j<=i; j++) {
